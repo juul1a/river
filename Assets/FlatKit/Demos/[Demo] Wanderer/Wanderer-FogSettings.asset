@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a6f656ab8114e939b71b289ffd9d7b2, type: 3}
+  m_Name: Wanderer-FogSettings
+  m_EditorClassIdentifier: 
+  useDistance: 1
+  distanceGradient:
+    serializedVersion: 2
+    key0: {r: 0.2924528, g: 0.2924528, b: 0.2924528, a: 1}
+    key1: {r: 0, g: 1, b: 0.7056353, a: 1}
+    key2: {r: 0.9936367, g: 1, b: 0.7971698, a: 1}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 51657
+    ctime2: 65535
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 52621
+    atime2: 65535
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 3
+    m_NumAlphaKeys: 3
+  near: 15.2
+  far: 82.6
+  distanceFogIntensity: 0.38
+  useDistanceFogOnSky: 1
+  useHeight: 1
+  heightGradient:
+    serializedVersion: 2
+    key0: {r: 0, g: 0.85213137, b: 1, a: 0}
+    key1: {r: 0, g: 0.85213137, b: 1, a: 1}
+    key2: {r: 0.76053464, g: 0.63529414, b: 0.8666667, a: 1}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 28142
+    ctime2: 65535
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 25443
+    atime2: 65535
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 3
+    m_NumAlphaKeys: 3
+  low: -2.8
+  high: 25.32
+  heightFogIntensity: 0.52
+  useHeightFogOnSky: 1
+  distanceHeightBlend: 0.5
+  renderEvent: 550
+  applyInSceneView: 1
