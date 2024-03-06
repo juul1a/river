@@ -29,6 +29,9 @@ public class Obstacle : MonoBehaviour
             Vector3 movement = -1*transform.forward * (endlessScript.speed +littleMoreSpeed) * Time.fixedDeltaTime;
                 transform.position += movement;
                 if(transform.position.z < endlessScript.minZ){
+                    if(gameObject.GetComponent<Flower>() != null){
+                        Debug.Log("POOLING FLOWER "+gameObject.name);
+                    }
                     obstaclesScript.PoolObstacle(gameObject);
                     obstaclesScript.PlaceObstacleFromPool();
                 }

@@ -11,6 +11,7 @@ public class Flower : MonoBehaviour
     public Endless endless;
 
     private Obstacle obstacleScript;
+    private Obstacles obstaclesScript;
 
     void Start(){
         obstacleScript = gameObject.GetComponent<Obstacle>();
@@ -21,12 +22,31 @@ public class Flower : MonoBehaviour
         //Particle effect
         //Add to blob
         if(!acquired){
-            obstacleScript.Score();
-            rhm.AddFlower(gameObject);
             acquired = true;
-            obstacleScript.disable = true;
-        }
-        //Score increase
+            obstacleScript.Score();
+            GameObject newFlower = Instantiate(this.gameObject);
+            newFlower.GetComponent<Obstacle>().disable = true;
+            Debug.Log("Instantiated "+newFlower.name);
+            rhm.AddFlower(newFlower);
+
+            //Turn off the mesh renderer
+             for (int i = 0; i < transform.childCount && i < 2; i++)
+            {
+                // Get the MeshRenderer component of the child
+                MeshRenderer meshRenderer = transform.GetChild(i).GetComponent<MeshRenderer>();
+
+                // Check if the MeshRenderer component exists
+                if (meshRenderer != null)
+                {
+                    // Disable the MeshRenderer
+                    meshRenderer.enabled = false;
+                }
+                else
+                {
+                    Debug.LogWarning("MeshRenderer component not found on child " + i);
+                }
+            }
         
     }
+}
 }

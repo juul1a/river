@@ -84,4 +84,8 @@ public class UIManager : MonoBehaviour
         uiHighScore.text = score.ToString();
         smHighScore.text = score.ToString();
     }
+
+    public void Quit(){
+         Application.Quit();
+    }
 }

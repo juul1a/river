@@ -85,6 +85,24 @@ public class Obstacles : MonoBehaviour
         prevObstacle = pooledToSpawn;
         Obstacle thisObstacle = pooledToSpawn.GetComponent<Obstacle>();
     
+        //Turn back on the mesh renderer
+        for (int i = 0; i < transform.childCount && i < 2; i++)
+        {
+            // Get the MeshRenderer component of the child
+            MeshRenderer meshRenderer = transform.GetChild(i).GetComponent<MeshRenderer>();
+
+            // Check if the MeshRenderer component exists
+            if (meshRenderer != null && !meshRenderer.enabled)
+            {
+                // Disable the MeshRenderer
+                meshRenderer.enabled = true;
+            }
+            else
+            {
+                Debug.LogWarning("MeshRenderer component not found on child " + i);
+            }
+        }
+
         int twoObstacles = Random.Range(0,3);
         //1 in 3 chance of 2 obstacles
         if(twoObstacles == 1 && !thisObstacle.bigObstacle){

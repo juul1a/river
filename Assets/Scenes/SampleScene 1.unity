@@ -10876,7 +10876,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 95
+  field of view: 120
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -10901,8 +10901,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
-  m_LocalRotation: {x: 0.014499306, y: 0, z: 0, w: 0.9998949}
-  m_LocalPosition: {x: 0, y: 8, z: 40}
+  m_LocalRotation: {x: 0.3209341, y: -0.0017687993, z: 0.0005993751, w: 0.9470997}
+  m_LocalPosition: {x: -0.3300014, y: 7.5580597, z: -24.33225}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -21875,7 +21875,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 675485442}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2059269565}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: Quit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &675485442
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21926,6 +21938,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5985808661955068503, guid: 76b62800e7a2d40e39b057fa8c524f07,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e75e951cd932438cacdce6559e3e6b4, type: 2}
     - target: {fileID: 5985808662678124648, guid: 76b62800e7a2d40e39b057fa8c524f07,
         type: 3}
       propertyPath: m_RootOrder
@@ -23083,7 +23100,7 @@ Terrain:
   m_DrawTreesAndFoliage: 1
   m_StaticShadowCaster: 0
   m_ReflectionProbeUsage: 1
-  m_MaterialTemplate: {fileID: 2100000, guid: e63c5dff24e488147a838dad26ec7914, type: 2}
+  m_MaterialTemplate: {fileID: 2100000, guid: 9e75e951cd932438cacdce6559e3e6b4, type: 2}
   m_BakeLightProbesForTrees: 1
   m_PreserveTreePrototypeLayers: 0
   m_DeringLightProbesForTrees: 0
@@ -24963,7 +24980,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 1fb403c32dd4642d5a50e5ba1ed5a60e, type: 2}
+      objectReference: {fileID: 2100000, guid: 9e75e951cd932438cacdce6559e3e6b4, type: 2}
     - target: {fileID: 5985808662678124648, guid: 76b62800e7a2d40e39b057fa8c524f07,
         type: 3}
       propertyPath: m_RootOrder
