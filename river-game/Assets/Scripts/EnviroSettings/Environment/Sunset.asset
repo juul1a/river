@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9d7c9ad0f62c40e2aee11d03072c322, type: 3}
+  m_Name: Sunset
+  m_EditorClassIdentifier: 
+  skyboxMaterial: {fileID: 2100000, guid: 440530f7cec0841c796ea7af0ecce4fd, type: 2}
+  splitToningShadow: {r: 0.94509804, g: 0.8784314, b: 0.078431375, a: 0}
+  fogGradient:
+    serializedVersion: 2
+    key0: {r: 1, g: 1, b: 1, a: 0}
+    key1: {r: 0.94893444, g: 0.91866857, b: 0.9579237, a: 0}
+    key2: {r: 0.8373433, g: 0.7409389, b: 0.8659764, a: 0.011764706}
+    key3: {r: 0.73331916, g: 0.57526124, b: 0.7802641, a: 0.49915123}
+    key4: {r: 0.67941517, g: 0.48940906, b: 0.735849, a: 1}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 193
+    ctime1: 10601
+    ctime2: 33346
+    ctime3: 53777
+    ctime4: 65535
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 10216
+    atime2: 32960
+    atime3: 53199
+    atime4: 65535
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 5
+    m_NumAlphaKeys: 5
+  distanceFogIntensity: 0.394
+  lightIntensity: 1
+  lightingGradient:
+  - {r: 0.7058824, g: 0.6313726, b: 0.47058824, a: 1}
+  - {r: 0.32941177, g: 0.22352941, b: 0.13333334, a: 1}
+  - {r: 0, g: 0, b: 0, a: 1}
+  night: 0

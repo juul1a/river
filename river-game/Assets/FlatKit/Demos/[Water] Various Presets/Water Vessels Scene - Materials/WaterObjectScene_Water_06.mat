@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4321619813945176072
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WaterObjectScene_Water_06
+  m_Shader: {fileID: 4800000, guid: efcaf526ceb1f4efd9eb4e4c30c6ade6, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _COLORMODE_LINEAR
+  - _FOAMMODE_GRADIENT_NOISE
+  - _WAVEMODE_GRID
+  m_InvalidKeywords:
+  - _OPAQUE_OFF
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    RenderType: Transparent
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ColorGradient:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseMap:
+        m_Texture: {fileID: 2800000, guid: 062db1959aabc4afb95dd37cf1c09dd6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AllowAlphaOverflow: 0
+    - _AlphaClip: 0
+    - _Amount: 1
+    - _Amplitude: 0.51
+    - _Blend: 0
+    - _BumpScale: 1
+    - _CameraDistanceFadeClose: 0
+    - _CameraDistanceFadeFar: 10
+    - _ColorMode: 0
+    - _CrestSharpness: 1
+    - _CrestSize: 0.25
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _Depth: 100
+    - _DstBlend: 0
+    - _EnvironmentReflections: 1
+    - _FadeDistance: 0
+    - _FoamAmount: 0
+    - _FoamDepth: 0.5
+    - _FoamDirection: 0
+    - _FoamFromTexture: 1
+    - _FoamMode: 1
+    - _FoamNoiseAmount: 0
+    - _FoamProcedural: 1
+    - _FoamScale: 0
+    - _FoamSharpness: 0.899
+    - _FoamSpeed: 0
+    - _FoamStretchX: 1
+    - _FoamStretchY: 1
+    - _FoamTexture: 1
+    - _Frequency: 0.08
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
+    - _LightContribution: 0
+    - _Metallic: 0
+    - _OcclusionStrength: 1
+    - _Opaque: 0
+    - _ProceduralFoam: 1
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _RefractionAmplitude: 0.01
+    - _RefractionFrequency: 0.72
+    - _RefractionScale: 5.15
+    - _RefractionSpeed: 0.09
+    - _RefractionStrength: 0.01
+    - _ShadowStrength: 1
+    - _Smoothness: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SpecularPower: 13.6
+    - _SpecularStrength: 19.4
+    - _Speed: 0.3
+    - _SrcBlend: 1
+    - _Surface: 0
+    - _UvFadeX: 0.1
+    - _UvFadeY: 0.1
+    - _WaterClearness: 0.062
+    - _WaterDepth: 0
+    - _WaveAmplitude: 1.74
+    - _WaveDirection: 0
+    - _WaveFrequency: 2.24
+    - _WaveMode: 2
+    - _WaveNoise: 0.156
+    - _WaveSpeed: -0.35
+    - _WorkflowMode: 1
+    - _ZWrite: 0
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0, g: 1, b: 0.7287984, a: 1}
+    - _ColorDeep: {r: 0.12130651, g: 0.41437376, b: 0.5471698, a: 1}
+    - _ColorShallow: {r: 0.3453186, g: 0.59734017, b: 0.75471693, a: 1}
+    - _ColorTop: {r: 0.18867925, g: 0.7491744, b: 0.754717, a: 1}
+    - _CrestColor: {r: 1, g: 1, b: 1, a: 0.9}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FoamColor: {r: 0.9975696, g: 1, b: 0.9575471, a: 1}
+    - _FoamStretch: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _SpecularColor: {r: 0.9810125, g: 1, b: 0, a: 1}
+  m_BuildTextureStacks: []

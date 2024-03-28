@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9d7c9ad0f62c40e2aee11d03072c322, type: 3}
+  m_Name: Night
+  m_EditorClassIdentifier: 
+  skyboxMaterial: {fileID: 2100000, guid: 74115a349080d4d67b70fd6ae66493d0, type: 2}
+  splitToningShadow: {r: 0.28627452, g: 0.27058825, b: 0.44313726, a: 0}
+  fogGradient:
+    serializedVersion: 2
+    key0: {r: 1, g: 1, b: 1, a: 0}
+    key1: {r: 0.87370247, g: 0.8775228, b: 0.9175172, a: 0}
+    key2: {r: 0.57252574, g: 0.58545643, b: 0.72082365, a: 0.011764706}
+    key3: {r: 0.31020877, g: 0.3310744, b: 0.54950887, a: 0.49915123}
+    key4: {r: 0.17661981, g: 0.2015264, b: 0.46226418, a: 1}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 193
+    ctime1: 10216
+    ctime2: 34117
+    ctime3: 54934
+    ctime4: 65535
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 10216
+    atime2: 32960
+    atime3: 53199
+    atime4: 65535
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 5
+    m_NumAlphaKeys: 5
+  distanceFogIntensity: 0.737
+  lightIntensity: 1
+  lightingGradient:
+  - {r: 0.20392157, g: 0.22352941, b: 0.24705882, a: 1}
+  - {r: 0.18039216, g: 0.30980393, b: 0.39607844, a: 1}
+  - {r: 0, g: 0, b: 0, a: 1}
+  night: 1
